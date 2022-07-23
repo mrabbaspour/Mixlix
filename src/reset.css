@@ -103,9 +103,10 @@ input {
 }
 
 body {
-  overflow-x: hidden;
   direction: rtl;
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100vw;
 }
