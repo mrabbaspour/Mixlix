@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mrabbaspour.github.io/mixlix-page",
-  "name": "mixlix-page",
+  "homepage": "http://mrabbaspour.github.io/mixlix",
+  "name": "mixlix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
