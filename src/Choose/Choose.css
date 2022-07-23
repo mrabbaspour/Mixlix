@@ -1,0 +1,14 @@
+.choose-bg,
+.choose-title {
+  display: inline-block;
+}
+.choose-title {
+  text-align: right;
+  padding: 0 25px;
+}
+.choose-bg {
+  background-color: #edf8ff;
+  margin-top: 100px;
+  padding: 25px;
+  box-shadow: 0 0 10px #edf8ff;
+}

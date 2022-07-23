@@ -1,0 +1,128 @@
+.product-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 170px 20px;
+  border: 1px solid #b4b4b4;
+  border-top-width: 0;
+}
+.product-desc-image {
+  margin: 0 50px;
+}
+.product-desc-image img {
+  width: 350px;
+}
+.product-desc-text h3.product-desc-title {
+  font-size: 30px;
+}
+.price-exiting {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.price-exiting .price {
+  font-size: 24px;
+}
+.price-exiting .exiting {
+  margin: 0 20px;
+  font-size: 16px;
+}
+.price-exiting .yes-exiting {
+  color: #0fbd66c0;
+}
+.price-exiting .no-exiting {
+  color: red;
+}
+.product-desc-text p.desc-text {
+  margin-top: 20px;
+  line-height: 2;
+  text-align: justify;
+}
+.cart-managing {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.number-of-product {
+  margin-left: 20px;
+  display: flex;
+}
+.number-of-product span {
+  display: inline-block;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #b4b4b4;
+}
+.number-of-product button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+}
+.number-of-product button:hover {
+  background-color: #ff5600;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.number-of-product button:first-child {
+  border-left-width: 0;
+}
+.number-of-product button:last-child {
+  border-right-width: 0;
+}
+.add-to-cart button {
+  height: 40px;
+  padding: 0 12px;
+  border: 0;
+  color: #fff;
+  background-color: #ff5600;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.add-to-cart button:hover {
+  background-color: #0fbd66c0;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1500px) {
+  .product-description {
+    border-right-width: 0;
+    border-left-width: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .product-description {
+    flex-direction: column;
+  }
+  .product-desc-image {
+    margin: 0;
+    text-align: center;
+  }
+  .product-desc-text h3.product-desc-title {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .product-desc-image img {
+    width: 270px;
+  }
+  .price-exiting .price {
+    font-size: 17px;
+  }
+  .price-exiting .exiting {
+    margin: 0 20px;
+    font-size: 12px;
+  }
+  .add-to-cart button {
+    padding: 0 7px;
+    height: 45px;
+    font-size: 15px;
+  }
+}

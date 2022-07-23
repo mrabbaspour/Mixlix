@@ -1,0 +1,19 @@
+.brands a {
+  outline: 0;
+  display: flex;
+  justify-content: center;
+}
+.brands .container {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+.brands img {
+  filter: grayscale(1);
+  border: 0;
+}
+.brands img:hover {
+  filter: none;
+  transition: all 0.5s ease;
+}
