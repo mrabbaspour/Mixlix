@@ -6,7 +6,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 export default function Banner() {
   return (
-    <div className="banner container-fluid">
+    <div className="banner">
       <div className="banner-text">
         <Title {...titles[0]} />
         <div className="btns-box">
