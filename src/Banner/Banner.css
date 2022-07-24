@@ -86,18 +86,18 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .banner {
+    height: 950px;
+  }
   .banner-text {
-    transform: translateY(-80%);
+    transform: translateY(300px);
   }
   .banner-picture img:first-child {
-    visibility: hidden;
-  }
-  .banner-picture {
-    right: 0;
+    display: none;
   }
   .banner-picture img:last-child {
-    top: 100px;
-    left: 85px;
+    top: -100px;
+    left: -200px;
   }
 }
 @media screen and (max-width: 576px) {
